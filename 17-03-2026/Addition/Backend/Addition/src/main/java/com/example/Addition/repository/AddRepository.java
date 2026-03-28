@@ -1,0 +1,11 @@
+package com.example.Addition.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.Addition.entity.AddEntity;
+
+public interface  AddRepository extends JpaRepository<AddEntity,Long>{
+
+    
+
+}
